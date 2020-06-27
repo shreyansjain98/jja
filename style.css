@@ -1,0 +1,948 @@
+html{
+	scroll-behavior:smooth;
+}
+
+a{
+	
+}
+
+a {text-decoration: none; color:white; }
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:white; }
+
+body{
+	margin:0;
+	font-family: 'Merriweather', serif;
+}
+.landingpage{
+	background-image: url('5.jpg');
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-position:center;
+	background-size:cover;
+	-webkit-background-size:cover; 
+	-webkit-background-position:center;
+	-webkit-background-repeat: no-repeat;
+	-webkit-background-attachment: fixed;
+  	height: 650px;
+}
+
+.navbar{
+	width:100%;
+	background-color: rgba(46, 97, 117, 0.3);
+	position: fixed;
+	box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+	transition:0.5s;
+	/*opacity:0.7;*/
+	/*position: fixed;*/
+}
+
+
+.tabs{
+	padding-top:100px;
+}
+.logo{
+	margin-left: 20px;
+	border-radius: 25px;
+	border:1px solid #1f5c99;
+	width:100px;
+}
+
+.logoname{
+	padding-left: 20px;
+	font-family: 'Merriweather', serif;
+	font-size:30px;
+	/*font-weight:bold;*/
+	color:white;
+	margin:10px;
+}
+
+.logo, .logoname{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.tagline{
+	/*font-style: italic;*/
+	font-size:15px;
+	opacity: 0.86;
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+}
+
+.left,.right{
+	display:inline-block;
+	color:white;
+	font-size:20px;
+	font-family: 'Merriweather', serif;
+	width:49%;
+}
+
+.landingtabs li{
+	padding:20px;
+	/*border-top: 2px solid rgba(255,255,255,0);*/
+	border-bottom: 3px solid rgba(255,255,255,0.3);
+	/*border-left:2px solid rgba(255,255,255,0);*/
+	/*border-right:2px solid rgba(255,255,255,0);*/
+	transition: 0.5s;
+	cursor:pointer;
+}
+
+.landingtabs li:hover{
+	/*border-top: 2px solid rgba(255,255,255,1);*/
+	border-bottom: 3px solid rgba(255,255,255,1);
+	/*border-left:2px solid rgba(255,255,255,1);*/
+	/*border-right:2px solid rgba(255,255,255,1);*/
+	/*transition: 0.75s;*/
+}
+
+.left{
+	padding-top:50px;
+	margin-right:auto;
+	margin-left: 0;
+}
+
+.right{
+	margin-left:auto;
+	margin-right:0;
+	text-align: right
+}
+.righthead{
+	font-size:30px;
+	margin:0;
+	padding:20px;
+}
+
+.left ul{
+	width:200px;
+
+}
+
+.right ul{
+	width:250px;
+	margin-left:auto;
+}
+
+.services{
+	font-family: 'Merriweather', serif;
+}
+
+.servicehead{
+	font-size:25px;
+	margin:20px 0;
+
+}
+
+.services_left{
+	width:50%;
+	background-color: #2e6175;
+	display:inline-block;
+}
+
+.services_pic{
+	padding-left:10px;
+	padding-top:80px;
+	padding-bottom: 160px;
+	/*padding-right:100px;*/
+	width:67%;
+	display:inline-block;
+}
+
+.servicelist{
+	/* display:inline-block; */
+	padding:0;
+	vertical-align: top;
+	padding-top:50px;
+	/* padding-left: 0px; */
+	float:right;
+	width:31%;
+}
+
+.servicelist li{
+	padding:20px 0;
+	font-size:15px;
+	color:white;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor:pointer;
+	border-bottom:2px solid rgba(255,255,255,0);
+	transition: 0.5s;
+}
+
+.tabarrow{
+	vertical-align: bottom;
+	font-size: 20px;
+	color:transparent;
+}
+
+.servicelist li:hover{
+	border-bottom:2px solid rgba(255,255,255,1);
+}
+
+.services_right{
+	vertical-align: top;
+	padding:20px;
+	width:40%;
+	display:inline-block;
+	color:#0a1d32;
+	background-color: white;
+}
+
+.services_header{
+	margin:0;
+	color:white;
+	font-size: 40px;
+	padding-top: 40px;
+	padding-bottom:40px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+
+.services{
+	background-color: #2e6175;
+}
+
+#s_body{
+	font-size:14px;
+	margin:0;
+}
+
+.team{
+	font-family: 'Merriweather', serif;
+	/*margin-top:50px;*/
+	margin-bottom:50px;
+}
+
+.team_left{
+	border-right:2px solid #2e6175;
+}
+
+.team_left,.team_right{
+	vertical-align: top;
+	width:49%;
+	height:580px;
+	display:inline-block;
+	margin-bottom:50px;
+}
+
+.team_img{
+	border-radius: 75px;
+	box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+}
+
+.team_img,.team_details{
+	display:inline-block;
+}
+
+.team_details{
+	padding-left: 30px;
+	vertical-align: top;
+}
+
+.team_name{
+	font-size: 30px;
+}
+
+.team_qual{
+	font-size: 15px;
+	font-style: italic;
+}
+
+.team_pic{
+	width:400px;
+	margin:0 auto;
+	display:block;
+	/*padding-left: 30px;*/
+}
+
+.team_intro{
+	width:500px;
+	margin:0 auto;
+	display:block;
+	padding-top:80px;
+	text-align: justify;
+	font-size:14px;
+}
+
+.team_header{
+	margin:0;
+	color:#2e6175;
+	font-size: 40px;
+	padding-top: 50px;
+	padding-bottom:100px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+.career{
+	width:90%;
+	margin:0 auto;
+	display:block;
+	/*box-shadow: 0px 0px 21px -12px rgba(0,0,0,0.75);*/
+}
+
+.careerpic{
+	height:500px;
+	/*border-right: 2px solid black;*/
+	display:inline-block;
+}
+
+.careerbox{
+	height:440px;
+	width:600px;
+	margin:30px 0px;
+	margin-left: 70px;
+	vertical-align: top;
+	display:inline-block;
+	border-left: 2px solid #2e6175;
+	/*border-right: 2px solid #2e6175;*/
+	/*box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);*/
+	padding-left: 80px;
+}
+
+.field{
+	padding:20px 0;
+}
+
+.ff_head{
+	font-family: 'Merriweather', serif;
+	width:15%;
+	font-size: 15px;
+	display:inline-block;
+}
+
+.ff_input{
+	font-family: 'Merriweather', serif;
+	height:25px;
+	width:60%;
+	display:inline-block;
+	border:none;
+	border-bottom:1px solid black;
+}
+
+.ff_option{
+	background-color: white;
+}
+
+.field5 input{
+	color: white;
+	border:1px solid black;
+}
+.career_head{
+	width:90%;
+	margin:0 auto;
+	color:#2e6175;
+	font-size: 40px;
+	padding-top: 50px;
+	padding-bottom:50px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	border-top: 2px solid #2e6175;
+}
+
+.career_box_head{
+	margin:0;
+	padding:20px 0;
+}
+
+.tags{
+	font-weight: bold;
+}
+
+.tag{
+	/* width: 27%; */
+	display:inline-block;
+	padding:10px 0px 0px 20px;
+}
+
+.tagicon{
+	font-size:15px;
+	vertical-align:bottom;
+}
+
+.tagname{
+	font-size:13px;
+}
+
+.contacthead{
+	width:90%;
+	margin:0 auto;
+	color:white;
+	font-size: 40px;
+	padding-top: 30px;
+	padding-bottom:30px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	border-bottom: 2px solid white;
+}
+
+
+
+
+.contactleft{
+	padding-top:50px;
+	width:25%;
+	background-color: white;
+	box-shadow: 7px 0px 7px -5px rgba(196,196,196,1);
+	vertical-align: top;
+}
+.contactlogo{
+	margin:0 auto;
+	border-radius: 25px;
+	border:1px solid #1f5c99;
+	width:100px;
+	display:block
+}
+.companyname{
+	font-size:20px;
+	text-align: center;
+}
+
+.tag2{
+	font-size:13px;
+}
+
+.contactright{
+	width:74%;
+}
+
+.contactleft, .contactright{
+	display:inline-block;
+	height:500px;
+}
+
+.info{
+	width:35%;
+	padding-top:30px;
+}
+
+.map{
+	width:64%;
+}
+
+.info, .map{
+	display:inline-block;
+}
+
+.icon_item{
+	font-size:40px !important;
+	width:40px !important;
+	margin:0 auto !important;
+	display:block !important;
+	color:white !important;
+}
+
+.details{
+	text-align:center;
+	font-size:13px;
+}
+
+.details a{
+	color:white;
+	text-decoration:none;
+}
+
+
+.contact{
+	background-color:#2e6175;
+	box-shadow: 7px 0px 7px -7px rgba(196,196,196,1);
+}
+
+.map{
+	vertical-align:top;
+	padding-top:50px;
+}
+
+.map iframe{
+	margin:0 auto;
+	display:block;
+}
+
+
+.about{
+	background-color:white;
+	/* background-image: url('about.jpg');
+  	background-repeat: no-repeat;
+  	background-position:center;
+  	background-size:cover; */
+	height:600px;
+	padding:100px 0;
+}
+
+.about_inner{
+	width:80%;
+	margin:0 auto;
+	display:block;
+	background-color:rgba(46, 97, 117, 1);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	padding: 100px 0;
+}
+
+.about_content{
+	width:80%;
+	margin:0 auto;
+	display:block;
+	color:white;
+	font-family:'Merriweather', serif;
+	font-size:16px;
+	text-align: justify;
+}
+
+.about_header{
+	color:white;
+	width:80%;
+	margin:0 auto;
+	display:block;
+	padding-top:0;
+	padding-bottom:25px;
+	border-bottom: 2px solid white;
+	margin-bottom:50px;
+}
+
+.menutoggle span{
+	display:none;
+	color:white;
+	/* font-size: 30px !important; */
+	float:right;
+}
+
+#closemenu{
+	display:none;
+}
+
+.team_img{
+	width:150px;
+}
+
+.formbutton{
+	background-color:white;
+	color:rgb(46, 97, 117);
+	border: 2px solid rgb(46, 97, 117);
+	font-family:'Merriweather', serif;
+	padding:10px 20px;
+	cursor:pointer;
+}
+
+
+.totop{
+	float:right;
+	padding:20px;
+	transition:0.5s;
+	
+}
+
+.totop span{
+	font-size: 40px !important;
+}
+
+.footer{
+	font-family:'Merriweather', serif;
+	padding:5px 0;
+	font-size:15px;
+	text-align:center;
+	border-top: 2px solid white;
+	background-color: rgb(46, 97, 117);
+	color:white;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1300px){
+	.careerbox{
+		width:500px;
+		margin:30px 0px;
+		margin-left: 40px;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.about_content{
+		font-size: 14px;
+	}
+
+	.servicelist li{
+		font-size: 13px;
+	}
+	#s_body{
+		font-size: 13px;
+	}
+	.servicelist{
+		width:36%;
+	}
+	.services_pic{
+		width:62%;
+	}
+	.servicehead{
+		font-size: 22px;
+	}
+
+	.team_name{
+		font-size:25px;
+	}
+
+	.team_qual{
+		font-size:12px;
+	}
+
+	.team_intro{
+		font-size:12px;
+		width:90%;
+	}
+
+	.careerbox{
+		width:500px;
+		margin-left:70px;
+		padding-left: 50px;
+		margin-top:0;
+		font-size:12px;
+		height:440px;
+	}
+
+	.careerbox div span, .careerbox div input{
+		font-size:12px;
+	}
+
+	.careerpic{
+		height:336px;
+	}
+}
+
+
+@media only screen and (max-width:1000px){
+	.services_pic{
+		display:none;
+	}
+
+	.services_left{
+		width:150px;
+		margin-left:10px;
+	}
+	.services_right{
+		width:70%;	
+		/* float:right; */
+	}
+
+	.servicelist{
+		width:auto;
+		float:none;
+	}
+
+	.tabarrow{
+		display:none !important;
+	}
+
+	.landingtabs li{
+		font-size:17px;
+	}
+
+	.righthead{
+		font-size: 25px;
+	}
+
+	.team_header{
+		padding-bottom:50px;
+	}
+
+	.team_left, .team_right{
+		display:block;
+		height:auto;
+		border:none;
+		width:80%;
+		margin:0 auto;
+		margin-bottom:50px;
+	}
+	.team_pic{
+		width:90%;
+		margin:0 auto;
+	}
+	.team_img{
+		width:100px;
+	}
+	.team_name{
+		font-size:20px;
+	}
+	.team_intro{
+		font-size:11px;
+		padding-top:30px;
+	}
+
+	.careerpic{
+		display:none;
+	}
+
+	.careerbox{
+		border:2px solid #2e6175;
+		width:500px;
+		margin:0 auto;
+		display:block;
+	}
+	
+	.map{
+		/* width:auto; */
+	}
+
+	.map iframe{
+		width:300px;
+		height:300px;
+	}
+
+	.footer{
+		font-size:12px;
+	}
+
+}
+
+
+
+@media only screen and (max-width:786px){
+	.landingpage{
+		background-color: #2e6175;
+		background-image: none;
+	}
+	.menutoggle span{
+		display:block;
+		color:white;
+		font-size: 40px !important;
+		float:right;
+		padding:25px 10px;
+	}
+
+	.logo{
+		width:80px;
+	}
+	.logoname{
+		font-size:25px;
+	}
+
+	.left{
+		position:absolute;
+		padding:0;
+		height:400px;
+		width:100%;
+		top:-400px;
+		transition:0.4s;
+		background-color:rgba(46, 97, 117, .97);
+		z-index: 100;
+		text-align: center;
+	}
+
+	.totop{
+		display:none;
+	}
+	#closemenu{
+		display:block;
+		text-align: right;
+	}
+
+	.right{
+		width:auto;
+		text-align: left;
+	}
+
+	.righthead{
+		padding-left:40px;
+	}
+
+	.landingtabs{
+		margin-left:0;
+		width:100% !important;
+	}
+
+	.services_header, .team_header, .career_head{
+		font-size:30px;
+	}
+	.services{
+		min-height:600px;
+	}
+	.services_left{
+		width:20%;
+		margin-left:7px;
+	}
+	.servicelist li{
+		font-size:10px;
+		margin-right:0px;
+		padding:15px 10px;
+	}
+	.services_right{
+		width:70%;
+	}
+	#s_body{
+		font-size:10px;
+	}
+	.servicehead{
+		font-size:15px;
+	}
+
+	.tag span{
+		font-size:10px;
+	}
+
+	.services_right{
+		padding:15px;
+	}
+	.tag{
+		padding-left:10px;
+		padding-top:0;
+	}
+	#lefttabs{
+		padding:0;
+	}
+
+	.contactleft{
+		display:none;
+	}
+
+	.contactright{
+		width:100%;
+	}
+
+	.contacthead{
+		font-size: 30px;
+	}
+
+	.careerbox{
+		width:400px;
+		padding-left: 30px;
+	}
+	.about_inner{
+		width:90%;
+	}
+	.about_content{
+		font-size:12px;
+		width:90%;
+	}
+
+}
+
+@media only screen and (max-width:480px){
+
+	.menutoggle span{
+		font-size:30px !important;
+		padding:15px 10px;
+		padding-left:0;
+	}
+
+	.logoname{
+		font-size:18px;
+		padding-left:10px;
+		margin-left:0;
+	}
+
+	.tagline{
+		font-size:12px;
+	}
+
+	.logo{
+		width:70px;
+		margin-left:10px;
+	}
+
+	.righthead{
+		padding:20px;
+	}
+	.landingtabs{
+		padding-left:20px;
+	}
+
+	.landingtabs li{
+		/* padding:10px; */
+	}
+
+	.ff_head{
+		width:20%;
+	}
+
+	.services_left{
+		width:22%;
+		margin-left:0;
+	}
+	.services_right{
+		width:67%;
+		padding:10px;
+	}
+	.servicelist li{
+		padding:13px 7px;
+	}
+
+	#lefttabs{
+		padding:0;
+	}
+
+	.info{
+		display:block;
+		width:auto;
+	}
+
+	.map{
+		display:block;
+		width:auto;
+	}
+
+	.contactright{
+		height:auto;
+	}
+
+	.careerbox{
+		width:280px;
+		padding-left:20px;
+	}
+
+	.career{
+		width:97%;
+	}
+
+	.about_content{
+		font-size:10px;
+	}
+
+	.about_inner{
+		padding:50px 0;
+	}
+
+	.team_details{
+		padding-left:10px;
+	}
+
+	.team_left,.team_right{
+		width:90%;
+	}
+
+	.map{
+		margin-bottom:30px;
+	}
+}
+
+
+/* .services{
+	display:none;
+}
+
+.landingpage{
+	display:none;
+}
+
+.about{
+	display:none;
+}
+
+.team{
+	display:none;
+}
+
+.career{
+	display:none;
+}
+
+.contact{
+	display:none;
+} */
